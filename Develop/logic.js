@@ -59,7 +59,7 @@ for(var i = 0; i < localStorage.length; i++) {
 var displayTextElement = localStorage.getItem(localStorage.key(i))
 $(`#${localStorage.key(i)}`).val(displayTextElement)
 
-}
+} 
 
 
 
